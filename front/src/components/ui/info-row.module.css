@@ -1,0 +1,16 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.label {
+  width: 80px;
+  flex-shrink: 0;
+  font-size: 14px;
+  color: var(--color-muted-foreground);
+}
+.value {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-foreground);
+}

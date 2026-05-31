@@ -1,0 +1,15 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.error {
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--color-destructive);
+}
+.hint {
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--color-muted-foreground);
+}

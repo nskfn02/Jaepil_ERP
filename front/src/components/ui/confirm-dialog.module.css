@@ -1,0 +1,11 @@
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-foreground);
+}
+.message {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-muted-foreground);
+}

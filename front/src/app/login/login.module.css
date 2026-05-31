@@ -1,0 +1,78 @@
+.center {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.page {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-muted);
+  padding: 16px;
+}
+.card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--color-border);
+  background: var(--color-background);
+  padding: 40px;
+  box-shadow: var(--shadow-md);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logoBadge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-lg);
+  background: var(--color-primary);
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+.logoText {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-foreground);
+}
+.head {
+  margin-top: 24px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--color-foreground);
+}
+.subtitle {
+  margin-top: 4px;
+  font-size: 14px;
+  color: var(--color-muted-foreground);
+}
+.banner {
+  margin-top: 20px;
+}
+.form {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.submit {
+  margin-top: 4px;
+}
+.demo {
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--color-muted-foreground);
+}

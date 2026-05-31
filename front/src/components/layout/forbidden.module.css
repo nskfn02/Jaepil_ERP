@@ -1,0 +1,33 @@
+.forbidden {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 80px 24px;
+  text-align: center;
+}
+.iconWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius-full);
+  background: var(--color-destructive-light);
+  color: var(--color-destructive);
+}
+.title {
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-foreground);
+}
+.desc {
+  font-size: 14px;
+  color: var(--color-muted-foreground);
+}
+.action {
+  margin-top: 16px;
+}

@@ -1,0 +1,11 @@
+.alert {
+  border-radius: var(--radius-lg);
+  padding: 12px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.45;
+}
+.success { background: var(--color-success-light); color: var(--color-success); }
+.error { background: var(--color-destructive-light); color: var(--color-destructive); }
+.warning { background: var(--color-warning-light); color: var(--color-warning); }
+.info { background: var(--color-primary-light); color: var(--color-primary); }

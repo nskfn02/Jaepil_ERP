@@ -1,0 +1,82 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 28px;
+}
+.row:hover {
+  background: color-mix(in srgb, var(--color-muted) 50%, transparent);
+}
+.code {
+  font-weight: 500;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+.iconBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-md);
+  border: none;
+  background: none;
+  color: var(--color-muted-foreground);
+  cursor: pointer;
+}
+.iconBtn:hover {
+  background: var(--color-muted);
+}
+.deleteBtn {
+  color: var(--color-destructive);
+}
+.deleteBtn:hover {
+  background: var(--color-destructive-light);
+}
+.skCell {
+  height: 16px;
+  width: 64px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.formError {
+  border-radius: var(--radius-lg);
+  background: var(--color-destructive-light);
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-destructive);
+}
+.blockRow {
+  display: flex;
+  gap: 12px;
+}
+.blockIcon {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background: var(--color-destructive-light);
+  color: var(--color-destructive);
+}
+.blockTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-foreground);
+}
+.blockDesc {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-muted-foreground);
+}

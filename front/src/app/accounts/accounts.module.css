@@ -1,0 +1,64 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 28px;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--color-foreground);
+}
+.subtitle {
+  font-size: 14px;
+  color: var(--color-muted-foreground);
+}
+.row:hover {
+  background: color-mix(in srgb, var(--color-muted) 50%, transparent);
+}
+.empNo {
+  font-weight: 500;
+}
+.statusCell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.statusLabel {
+  font-size: 13px;
+  color: var(--color-muted-foreground);
+}
+.skCell {
+  height: 16px;
+  width: 64px;
+}
+.modalDesc {
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: var(--color-muted-foreground);
+}
+.resetTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-foreground);
+}
+.resetDesc {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--color-muted-foreground);
+}
+.resetBox {
+  margin-top: 16px;
+}
+.resetNote {
+  margin-top: 12px;
+  font-size: 12px;
+  color: var(--color-muted-foreground);
+}

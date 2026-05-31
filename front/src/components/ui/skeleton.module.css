@@ -1,0 +1,5 @@
+.skeleton {
+  animation: erp-pulse 1.5s ease-in-out infinite;
+  border-radius: var(--radius-md);
+  background: var(--color-muted);
+}

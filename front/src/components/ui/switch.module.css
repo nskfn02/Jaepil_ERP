@@ -1,0 +1,37 @@
+.switch {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  height: 24px;
+  width: 44px;
+  flex-shrink: 0;
+  border-radius: var(--radius-full);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s;
+  background: var(--color-input);
+  outline: none;
+}
+.switch:focus-visible {
+  box-shadow: 0 0 0 2px rgb(37 99 235 / 0.4);
+}
+.on {
+  background: var(--color-primary);
+}
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.knob {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: var(--radius-full);
+  background: #fff;
+  box-shadow: var(--shadow-sm);
+  transform: translateX(2px);
+  transition: transform 0.15s;
+}
+.knobOn {
+  transform: translateX(22px);
+}
