@@ -1,0 +1,7 @@
+# 로컬 도구/에이전트 작업 폴더 (git 미추적)
+.claude/
+.omc/
+.playwright-mcp/
+
+# macOS
+**/.DS_Store
