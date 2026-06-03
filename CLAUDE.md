@@ -8,6 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - `docs/` — 한국어 설계 문서. 코드를 고치기 전에 관련 문서를 먼저 확인할 것.
   - `requirements.md` (요구사항, AUTH/RBAC/ACCT/HR ID 체계) · `features.md` (기능, FEAT-* ID, 요구사항과 매핑) · `database.md` (PostgreSQL 스키마) · `erd.md` · `tech_stack.md` · `wbs.md` · `github.md`
+  - `file_structure.md` (`front/` 파일별 역할 전체 지도 — 새 파일을 찾을 때 먼저 볼 것) · `use_guide.md` (워크플로우별 기능 검증 안내) · `deploy.md` (배포 현황·접속 정보)
 - `front/` — 실제 애플리케이션 (Next.js 16 + React 19). **모든 명령은 `front/`에서 실행한다.**
 
 ## 명령어 (`front/`에서 실행)
@@ -19,7 +20,7 @@ npm run start    # 빌드 결과 실행
 npm run lint     # eslint (eslint-config-next, flat config)
 ```
 
-테스트 프레임워크는 없다. 검증은 `npm run build`(타입체크)와 `npm run lint`, 그리고 브라우저 동작 확인으로 한다.
+테스트 프레임워크는 없다. 검증은 `npm run build`(타입체크)와 `npm run lint`, 그리고 브라우저 동작 확인으로 한다. 동작 확인용 데모 계정 — 관리자 `2025-0001`/`admin123`, 일반 `2026-0001`/`user1234`.
 
 ### 환경 변수 (`front/.env.local`)
 
